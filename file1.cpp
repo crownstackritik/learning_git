@@ -1,8 +1,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n;
-    cin>>n;
-    cout<<"value of n "<<n<<endl;
+    int a,b;
+    cin>>a>>b;
+    cout<<"value of a "<<a<<endl;
+    cout<<"value of a "<<a<<endl;
     return 0;
 }
