@@ -8,4 +8,6 @@ int main(){
     cout<<"value of a%b   :"<<a%b<<endl;
     
     return 0;
+   // ngjnnnrkjfn
+   hi 
 }
