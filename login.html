@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        /* General styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://source.unsplash.com/1920x1080/?nature,mountains') no-repeat center center/cover;
+        }
+
+        /* Main container */
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        /* Welcome title */
+        .container h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #f2f2f2;
+        }
+
+        /* Button styles */
+        .btn {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px 15px;
+            font-size: 1.2rem;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Additional links */
+        .container p {
+            margin-top: 20px;
+            font-size: 1rem;
+            color: #ccc;
+        }
+
+        .container p a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        .container p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to Our Website</h1>
+        <a href="/login" class="btn">Login</a>
+        <a href="/signup" class="btn">Sign Up</a>
+        <p>Need help? <a href="/contact">Contact Us</a></p>
+    </div>
+
+</body>
+</html>
